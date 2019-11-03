@@ -7,15 +7,19 @@
     "@types/node": "12.12.5",
     "@types/react": "16.9.11",
     "@types/react-dom": "16.9.3",
+    "mtts": "../mtts",
+    "node-sass": "^4.13.0",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "react-scripts": "3.2.0",
+    "tailwindcss": "^1.1.3",
     "typescript": "3.6.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "start": "yarn tailwind:css && react-scripts start",
+    "build": "yarn tailwind:css && react-scripts build",
+    "test": "yarn tailwind:css && react-scripts test",
+    "tailwind:css": "tailwind build src/assets/tailwind.scss -c tailwind.config.js -o src/assets/index.scss",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
