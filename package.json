@@ -8,10 +8,12 @@
     "@types/react": "16.9.11",
     "@types/react-dom": "16.9.3",
     "classnames": "^2.2.6",
+    "i18next": "^19.0.0",
     "mtts": "../mtts",
     "node-sass": "^4.13.0",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
+    "react-i18next": "^11.1.0",
     "react-scripts": "3.2.0",
     "tailwindcss": "^1.1.3",
     "typescript": "3.6.4"

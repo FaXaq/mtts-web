@@ -1,0 +1,17 @@
+{
+  "translation": {
+    "notes": {
+      "A": "La",
+      "B": "Si",
+      "C": "Do",
+      "D": "Ré",
+      "E": "Mi",
+      "F": "Fa",
+      "G": "Sol"
+    },
+    "accidentals": {
+      "SHARP": "#",
+      "FLAT": "b"
+    }
+  }
+}
