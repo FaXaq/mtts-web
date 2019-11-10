@@ -1,8 +1,15 @@
-const { COLORS, EXTENDED } = require('./src/assets/colors');
+const {
+  COLORS,
+  EXTENDED
+} = require('./src/assets/colors');
+const {
+  colors
+} = require('tailwindcss/defaultTheme')
 
 module.exports = {
   theme: {
     colors: {
+      ...colors,
       ...COLORS
     },
     extend: {
@@ -12,5 +19,7 @@ module.exports = {
     }
   },
   variants: {},
-  plugins: []
+  plugins: [
+    require('tailwindcss-transitions')()
+  ]
 }
