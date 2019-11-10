@@ -3,6 +3,7 @@ import Logo from "./components/images/Logo";
 import NoteSelector from "./components/NoteSelector";
 
 import { Note } from "mtts";
+import Scale from "./components/Scale";
 
 const App: React.FC = () => {
   const DEFAULT_NOTE = new Note({ name: "C" });
@@ -22,7 +23,7 @@ const App: React.FC = () => {
       <div className="NoteSelector">
         <NoteSelector currentNote={note} onNoteSelect={setNote} />
       </div>
-      <p>{note.name}</p>
+      <Scale root={note} name={"major"} />
     </div>
   );
 };
