@@ -10,7 +10,7 @@
     "classnames": "^2.2.6",
     "i18next": "^19.0.0",
     "mtts": "../mtts",
-    "node-sass": "^4.13.0",
+    "node-sass": "^7.0.0",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "react-i18next": "^11.1.0",
